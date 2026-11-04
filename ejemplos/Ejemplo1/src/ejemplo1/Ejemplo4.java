@@ -24,13 +24,14 @@ public class Ejemplo4 {
         System.out.println("Ingrese la nota necesaria");
         promedio = entrada.nextDouble();
         
-        entrada.nextLine();
+        entrada.nextLine(); /* sirve para evitar el salto de linea o para pasar
+        de double a string sin ese salto*/
         
         String nombreEstudiante;
         System.out.println("Ingrese nombre de estudiante");
         nombreEstudiante = entrada.nextLine();
 
-        if (promedio >= 7.5 && promedio <=10) { // Falso
+        if (promedio >= 7.5 && promedio <=10) { // Falso    
             System.out.printf("Estudiante %s aprobado con un "
                     + "promedio: %.2f\n",nombreEstudiante,
                     promedio);
