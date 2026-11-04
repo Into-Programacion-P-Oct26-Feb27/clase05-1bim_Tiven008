@@ -42,10 +42,10 @@ public class Ejemplo21 {
         // ciudad
         
         if (promedio >= 7.5) {
-            System.out.printf("Estudiante %s(%s %s) aprobado con un promedio: %.2f\n", 
+            System.out.printf("Estudiante %s(%s %saños) aprobado con un promedio: %.2f\n", 
                     miNombre, ciudad , edad , promedio);
         }else{
-            System.out.printf("Estudiante %s(%s %S) reprobado con un "
+            System.out.printf("Estudiante %s(%s %saños) reprobado con un "
                     + "promedio: %.2f\n", miNombre,ciudad , edad , promedio);
         }
     }
