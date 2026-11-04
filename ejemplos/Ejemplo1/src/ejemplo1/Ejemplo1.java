@@ -23,24 +23,31 @@ public class Ejemplo1 {
         entrada.useLocale(Locale.US);
         
         double limiteNotas = 6.9;
-               
+        String Nombre;   
+        
+        System.out.println("Ingrese su Nombre");
+        Nombre = entrada.nextLine();
+                
         System.out.println("Ingrese un valor para analizar");
         double promedio = entrada.nextDouble();
         
         
         if (promedio >= limiteNotas) {
-            System.out.printf("Estudiante aprobado con un "
-                    + "promedio: %.2f\n", promedio);
+            System.out.printf("Estudiante: %s\nAprobado con un "
+                    + "promedio: %.2f\n",Nombre, promedio);
         }
             
         if (promedio == limiteNotas) {
-            System.out.printf("Estudiante aprobado con un "
-                    + "promedio: %.2f\n", promedio);
+            System.out.printf("Estudiante: %s\nAprobado con un "
+                    + "promedio: %.2f\n",Nombre, promedio);
         }
 
         if (promedio < limiteNotas) {
-            System.out.printf("Estudiante aprobado con un "
-                    + "promedio: %.2f\n", promedio);
+            System.out.printf("Estudiante: %s\nAprobado con un "
+                    + "promedio: %.2f\n",Nombre, promedio);
+        
+            
+        
         }
     }
 
