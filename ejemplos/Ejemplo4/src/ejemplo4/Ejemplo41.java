@@ -27,6 +27,8 @@ public class Ejemplo41 {
         //F           or          //F         >>>>> F
         if (ciudad.equals("Loja") && ciudad.equals("Machala") && 
                 ciudad.equals("Guayaquil")) {
+            /* la linea 28 esta mal porque no tiene logica te pide tener las 3 
+            ciudades en el mismo espacio al mismo tiempo*/
             System.out.printf("%s\n", "acceso correcto");
         } else {
             System.out.printf("%s\n", "acceso incorrecto");
